@@ -1,0 +1,150 @@
+*{
+    font-family: serif;
+    font-style: normal;
+    
+    margin: 5px 2px 5px;
+    padding: 5px;
+}
+header{
+    background-image: url(../../Downloads/covid-page-banner2.jpg);
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+.head{
+    font-size: large;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(233, 219, 25);
+    text-emphasis-position: bottom;
+    text-align: center;
+    text-emphasis-color: black;
+    text-shadow: ghostwhite;
+
+}
+nav{
+    background-color: hotpink;
+    text-align: right;
+    
+    
+}
+a:hover{
+    color: red;
+    background-color: black;
+}
+a:visited{
+    color: blueviolet;
+}
+.home{
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    text-align: justify;
+    text-decoration: cadetblue;
+    color: white;
+    width: 50%;
+    height: auto;
+    align-tracks: right;
+    float: left;
+}
+.a1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: larger;
+    color: rgb(241, 8, 125);
+    border: solid 2px turquoise;
+    background-color: turquoise;
+    border-radius: 4px;
+    border-end-start-radius: 3px;
+}
+#link1{
+    
+    align-content: space-between;
+    color: black(243, 25, 18);
+    background-color: thistle;
+    border: thistle 5px;
+    
+    border-radius: 5px;
+    text-align: left;
+}
+
+#link2, #link3{
+    align-content: space-between;
+    color: black(243, 25, 18);
+    background-color: thistle;
+    border: thistle 5px;
+    border-radius: 6px;
+    
+    text-align: left;
+    
+}
+#dos{
+    align-content: space-between;
+    color: black(243, 25, 18);
+    background-color: thistle;
+    border: thistle 5px;
+    border-radius: 6px;
+    
+    text-align: left;
+    
+}
+
+.right{
+    color: black;
+    background-color: lightcoral;
+    border: lightcoral 5px solid;
+    border-radius: 5px;
+    float: right;
+}
+
+.registeration{
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    text-align: justify;
+    text-decoration: cadetblue;
+    color: white;
+    width: 50%;
+    height: auto;
+    background-color: grey;
+    border: grey solid 5px;
+    float: left;
+}
+
+#cowin{
+    background-color: rgb(0, 0, 0);
+    border-radius: 6px;
+}
+#setu{
+    background-color: rgb(0, 0, 0);
+    border-radius: 6px;
+}
+.about{
+    color: black;
+    background-color: lightcoral;
+    border: lightcoral 5px solid;
+    border-radius: 5px;
+    width: 50%;
+    float: right;
+    
+}
+.team{
+    text-align: center;
+    background-color: rgb(8, 8, 8);
+    border-radius: 10px;
+    font-size: larger;
+    position: absolute;
+    float: none;
+}
+
+#img1{
+    float: right;
+    height: 300px;
+}
+#img2{
+    float: left;
+    height: 400px;
+}
+footer{
+    position: absolute;
+    top: 320%;
+}
